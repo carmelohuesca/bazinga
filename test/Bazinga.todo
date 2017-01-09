@@ -3,7 +3,7 @@ Bazinga:
   ✔ El constructor tiene de entrada un número entero mayor que 0 @done (17-01-09 11:01)
   ✔ tiene un método run() que devuelve el resultado en formato string @done (17-01-09 11:07)
   ✔ si el número es divisible por 3 debe devolver "Penny" @done (17-01-09 11:18)
-  ☐ si el número es divisible por 5 debe devolver "Sheldon"
+  ✔ si el número es divisible por 5 debe devolver "Sheldon" @done (17-01-09 11:46)
   ☐ si el número es divisible por 3 y 5 debe devolver "Leonard"
   ☐ si el número es divisible por 3 y 5 pero no por 2 debe devolver "Howard"  
   ☐ si el número es divisible por 3, 5 y 7 pero no por 2 debe devolver "Bazinga"

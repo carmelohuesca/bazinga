@@ -21,8 +21,15 @@ var Bazinga = function(number) {
         return logic;
     };
 
+    this.isSheldon = function() {
+        var logic = this.isMultipleOf(5);
+        this.setResult(logic, 'Sheldon');
+        return logic;
+    };
+
     this.run = function() {
         this.isPenny();
+        this.isSheldon();
         return this.result;
     };
 
