@@ -13,7 +13,13 @@ Requiere [node.js] v4+.
 ### Instalación del componente en otro proyecto:    
     $ npm install --save bazinga
 ## Test
+    Lanzar en TDD
     $ npm run tdd
+    Ejecutar una vez
+    $ npm run test
+## Documentación
+    Prepara la documentación en la carpeta /docs
+    $ npm run jsdoc    
 [//]: # (These are reference links used in the body)
    [node.js]: <http://nodejs.org>
    [Karma]: <https://karma-runner.github.io/1.0/index.html>

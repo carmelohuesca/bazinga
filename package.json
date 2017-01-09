@@ -1,7 +1,7 @@
 {
   "name": "bazinga",
   "version": "1.0.0",
-  "description": "bazinga tdd",
+  "description": "lógica de Bazinga en tdd",
   "main": "src/Bazinga.js",
   "scripts": {
     "test": "karma start --single-run",
