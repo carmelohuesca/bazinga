@@ -1,0 +1,20 @@
+{
+  "name": "bazinga",
+  "version": "1.0.0",
+  "description": "bazinga tdd",
+  "main": "src/Bazinga.js",
+  "scripts": {
+    "test": "karma start --single-run",
+    "tdd": "karma start"
+  },
+  "author": "carmelo",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-safari-launcher": "^1.0.0"
+  }
+}

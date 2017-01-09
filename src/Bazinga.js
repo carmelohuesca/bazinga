@@ -1,0 +1,1 @@
+var Bazinga = function(){};
