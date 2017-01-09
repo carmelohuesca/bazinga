@@ -33,10 +33,17 @@ var Bazinga = function(number) {
         return logic;
     };
 
+    this.isHoward = function() {
+        var logic = (this.isLeonard() && !this.isMultipleOf(2));
+        this.setResult(logic, 'Howard');
+        return logic;
+    };
+
     this.run = function() {
         this.isPenny();
         this.isSheldon();
         this.isLeonard();
+        this.isHoward();
         return this.result;
     };
 

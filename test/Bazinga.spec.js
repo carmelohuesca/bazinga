@@ -33,8 +33,8 @@ describe('Bazinga:', function() {
         expect(new Bazinga(30).run()).toBe('Leonard');
     });
 
-    xit('si el número es divisible por 3 y 5 pero no por 2 debe devolver "Howard"  ', function() {
-
+    it('si el número es divisible por 3 y 5 pero no por 2 debe devolver "Howard"  ', function() {
+        expect(new Bazinga(15).run()).toBe('Howard');
     });
 
     xit('si el número es divisible por 3, 5 y 7 pero no por 2 debe devolver "Bazinga"', function() {

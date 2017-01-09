@@ -5,5 +5,5 @@ Bazinga:
   ✔ si el número es divisible por 3 debe devolver "Penny" @done (17-01-09 11:18)
   ✔ si el número es divisible por 5 debe devolver "Sheldon" @done (17-01-09 11:46)
   ✔ si el número es divisible por 3 y 5 debe devolver "Leonard" @done (17-01-09 11:51)
-  ☐ si el número es divisible por 3 y 5 pero no por 2 debe devolver "Howard"  
+  ✔ si el número es divisible por 3 y 5 pero no por 2 debe devolver "Howard" @done (17-01-09 11:58)  
   ☐ si el número es divisible por 3, 5 y 7 pero no por 2 debe devolver "Bazinga"
