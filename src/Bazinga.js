@@ -39,11 +39,18 @@ var Bazinga = function(number) {
         return logic;
     };
 
+    this.isBazinga = function() {
+        var logic = (this.isHoward() && this.isMultipleOf(7));
+        this.setResult(logic, 'Bazinga');
+        return logic;
+    };
+
     this.run = function() {
         this.isPenny();
         this.isSheldon();
         this.isLeonard();
         this.isHoward();
+        this.isBazinga();
         return this.result;
     };
 
