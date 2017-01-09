@@ -19,8 +19,10 @@ describe('Bazinga:', function() {
 	    expect(new Bazinga(23).run()).toBe('23');
 	});
 
-	xit('si el número es divisible por 3 debe devolver "Penny"', function() {
-
+	it('si el número es divisible por 3 debe devolver "Penny"', function() {
+	    expect(new Bazinga(3).run()).toBe('Penny');
+	    expect(new Bazinga(6).run()).toBe('Penny');
+	    expect(new Bazinga(6).run()).toBe('Penny');
 	});
 
 	xit('si el número es divisible por 5 debe devolver "Sheldon"', function() {
