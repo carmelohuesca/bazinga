@@ -1,1 +1,9 @@
-var Bazinga = function(){};
+var Bazinga = function(number) {
+    this.setNumber = function(number) {
+        var number = parseInt(number);
+        var isValid = (number !== NaN && number > 0);
+        this.number = isValid ? number : 1;
+        this.result = isValid ? number.toString() : 'entrada incorrecta';
+    };
+    this.setNumber(number);
+};
