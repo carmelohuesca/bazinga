@@ -1,5 +1,5 @@
 var Bazinga = function(number) {
-   
+
     this.setNumber = function(number) {
         var number = parseInt(number);
         var isValid = (number !== NaN && number > 0);
@@ -27,9 +27,16 @@ var Bazinga = function(number) {
         return logic;
     };
 
+    this.isLeonard = function() {
+        var logic = (this.isPenny() && this.isSheldon());
+        this.setResult(logic, 'Leonard');
+        return logic;
+    };
+
     this.run = function() {
         this.isPenny();
         this.isSheldon();
+        this.isLeonard();
         return this.result;
     };
 
