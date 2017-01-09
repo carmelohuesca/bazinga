@@ -14,8 +14,9 @@ describe('Bazinga:', function() {
 		expect(new Bazinga('-98.4')).toBeDefined();  
 	});
 
-	xit('tiene un método run() que devuelve el resultado en formato string', function() {
-
+	it('tiene un método run() que devuelve el resultado en formato string', function() {
+		expect(typeof new Bazinga().run()).toBe('string');
+	    expect(new Bazinga(23).run()).toBe('23');
 	});
 
 	xit('si el número es divisible por 3 debe devolver "Penny"', function() {

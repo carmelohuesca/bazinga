@@ -5,5 +5,10 @@ var Bazinga = function(number) {
         this.number = isValid ? number : 1;
         this.result = isValid ? number.toString() : 'entrada incorrecta';
     };
+    
+    this.run = function() {
+        return this.result;
+    };
+
     this.setNumber(number);
 };
