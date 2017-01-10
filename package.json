@@ -1,5 +1,5 @@
 {
-  "name": "bazinga",
+  "name": "my-bazinga",
   "version": "1.0.0",
   "description": "lógica de Bazinga en tdd",
   "main": "src/Bazinga.js",
@@ -8,7 +8,7 @@
     "jsdoc": "jsdoc ./src  -d ./docs",
     "tdd": "karma start"
   },
-  "author": "carmelo",
+  "author": "carmelohuesca",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^2.5.2",
